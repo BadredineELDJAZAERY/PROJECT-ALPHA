@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    background-color: gainsboro;
+    margin: 0 0px 0px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 1280px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu a:hover{
+    color:red;
+    text-transform: capitalize;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.menu h3{
+    color: white;
+}
+#logo{
+    position: relative;
+    left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+#more{
+    font-size: 100px;
+    position: relative;
+    left: 350px;
+    color: black;
+    
+    
+}
+#more:hover{
+    font-family: 'Rubik Moonrocks', cursive;
+    color: brown
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
